@@ -20,7 +20,7 @@ function App() {
 
 const createTodo = async (e)=>{
   e.preventDefault(e);
-  if(input==''){
+  if(input===''){
     alert('please enter a valied Todo')
     return
   }
